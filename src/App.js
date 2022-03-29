@@ -7,6 +7,7 @@ import Login from "./Pages/Login/Login/Login";
 import Register from "./Pages/Login/Register/Register";
 import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./Pages/Login/PrivateRoute/PrivateRoute";
+import ServiceDetails from "./Pages/Home/ServiceDetails/ServiceDetails";
 
 function App() {
   return (
@@ -14,23 +15,18 @@ function App() {
       <AuthProvider>
         <BrowserRouter>
           <Routes>
-            <Route
-              exact
-              path="/"
-              element={
-                <PrivateRoute>
-                  <Home />
-                </PrivateRoute>
-              }
-            ></Route>
+            <Route exact path="/" element={<Home />}></Route>
+          </Routes>
+          <Routes>
+            <Route exact path="/home" element={<Home />}></Route>
           </Routes>
           <Routes>
             <Route
               exact
-              path="/home"
+              path="/service/:id"
               element={
                 <PrivateRoute>
-                  <Home />
+                  <ServiceDetails />
                 </PrivateRoute>
               }
             ></Route>

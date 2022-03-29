@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/6HNFHdY/js.jpg",
+
+    "name": "JavaScript Basic to Advance",
+    "price": "TK 8000",
+    "duration": "6 months",
+    "description": "JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/BchkmzY/data-science.jpg",
+
+    "name": "Data Science Fundamentals",
+    "price": "TK 12000",
+    "duration": "6 months",
+    "description": " Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data."
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/d5BJmWY/machine-learning.png",
+    "name": "Machine Learning",
+    "price": "TK 10000",
+    "duration": "6 months",
+    "description": " Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence."
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/558Tgm2/python.png",
+    "name": "Python Fundamentals",
+    "price": "TK 8000",
+    "duration": "6 months",
+    "description": " Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation."
+  }
+]

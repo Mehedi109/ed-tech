@@ -36,7 +36,6 @@ const Banner = () => {
             width="1200px"
             height="500px"
             radius="10px"
-            slideNumber={true}
             slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"
             automatic={true}

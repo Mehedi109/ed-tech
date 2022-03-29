@@ -23,9 +23,9 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    loginUser(loginData.email, loginData.password);
-    navigate(redirect_uri);
-    // e.preventDefault();
+    loginUser(loginData.email, loginData.password).then((result) => {
+      navigate(redirect_uri);
+    });
   };
 
   const handleGoogleLogin = () => {
